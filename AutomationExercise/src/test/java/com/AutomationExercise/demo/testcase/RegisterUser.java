@@ -3,6 +3,7 @@ package com.AutomationExercise.demo.testcase;
 
 import org.testng.annotations.Test;
 
+
 import com.AutomationExercise.demo.Basetest.BaseClass;
 import com.AutomationExercise.demo.POM.HomePage;
 import com.AutomationExercise.demo.POM.SignUpPage;
@@ -33,13 +34,6 @@ public class RegisterUser extends BaseClass {
 		sp.getSignupbtn().click();
 		sp.getTitleradiobtn().click();
 		sp.getPwdfield().sendKeys(password+ju.getRandomNum());
-		/*
-		 * WebElement days = driver.findElement(By.id("days")); Select s = new
-		 * Select(days); s.selectByValue("1"); WebElement month =
-		 * driver.findElement(By.id("months")); Select s1=new Select(month);
-		 * s1.selectByValue(""); WebElement year = driver.findElement(By.id("years"));
-		 * Select s2=new Select(year); s2.selectByValue("");
-		 */
 		sp.getNewslettercheckbox().click();
 		sp.getRecievescheckbox().click();
 		sp.getFNtextfield().sendKeys(FN);
