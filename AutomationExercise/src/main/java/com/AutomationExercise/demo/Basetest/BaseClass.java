@@ -58,7 +58,7 @@ public class BaseClass {
 
 	@AfterMethod()
 	public void configaftermethod() {
-		driver.findElement(By.xpath("//a[text()=' Logout']")).click();
+		//driver.findElement(By.xpath("//a[text()=' Logout']")).click();
 		System.out.println("logout");
 	}
 
