@@ -48,6 +48,8 @@ public class RegisterUser extends BaseClass {
 		sp.getZipcodefield().sendKeys(zipcode);
 		sp.getMobnofield().sendKeys(mobnum);
 	    sp.getCreateaccbtn().click();
+	    
+		//hp.getContinuebtn().click();
 		
 	}
 
